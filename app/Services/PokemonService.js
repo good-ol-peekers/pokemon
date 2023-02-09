@@ -13,6 +13,14 @@ class PokemonService {
 
     console.log('[get pokemon]', pokemon)
 }
+
+async addPokemonToAPI() {
+    try {
+        const res 
+    } catch (error) {
+        
+    }
+}
 }
 
 

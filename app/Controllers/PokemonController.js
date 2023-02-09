@@ -25,5 +25,11 @@ async getPokemon() {
     }
 }
 
-
+async addPokemonToAPI(){
+    try {
+        await pokemonService.addPokemonToAPI()
+    } catch (error) {
+        Pop.error(error)
+    }
+}
 }
